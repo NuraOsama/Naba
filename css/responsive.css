@@ -1,0 +1,914 @@
+/*--media query--*/
+@media screen and  (max-width:320px){
+
+     /*--Home Page-*/
+     .top-header .top-nav-right {
+        float: unset;
+      }
+      .top-header ul{
+
+        justify-content: center;
+        margin-bottom:8px;
+    }
+    .top-header .top-nav-left ul{
+
+        display: block !important;
+        margin: 0 auto ;
+        text-align: center;
+      }
+      .top-header .top-nav-left ul li{
+          margin-bottom:8px
+      }
+    .top-header .top-nav i {
+        margin-right: 5px;
+    }
+    .nav-toggle{
+
+        display: block;
+
+     
+     }
+     .navbar-light .navbar-left {
+       display: none;
+    }
+    .naba-numbers .row {
+        padding: 0;
+    }
+    .main-slider,
+    .owl .carousel-item .image{
+        height:320px  !important;    
+    }
+    
+    .owl .carousel-item .image .overlay .caption,
+    .owl .ite-2 .image .overlay .caption,
+     .owl .ite-3 .image .overlay .caption{
+
+    
+        transform: translateY(120px);
+        
+    }
+   
+   
+    .owl .carousel-item .image .overlay .caption h2 {
+
+        font-size:30px;
+    }
+    .owl .carousel-item .image .overlay .caption .btn {
+
+        width:55%;
+        font-size: 15px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 7% !important;
+    }
+    .services-sec .col-lg-6 {
+        padding: 2px 4px;
+    }
+    .services-sec .image {
+        height: 100% !important; 
+    }
+    .services-sec .image .overlay .box {
+     
+        padding: 12px;
+    }
+    .services-sec .image .overlay .box .text h3 {
+        font-size:27px;
+    }
+    .head img {
+        width: 100% !important; 
+        height: 100% !important;
+    }
+    .trainers-sec .col-lg-3{
+
+        margin-bottom: 30px;
+    }
+    
+    .trainers-sec .image {
+        
+        height:100% !important;
+    }
+    .trainers-sec .image .overlay {
+        top: 82%;
+    }
+    .courses-sec .content .image-center img{
+
+        width:initial !important;
+        height:initial !important;
+    }
+    footer .col-lg-4{
+
+        margin-bottom: 30px;
+    }
+    /*--//Home Page-*/
+    
+    /*--About Page-*/
+    .about-countries .circle{
+
+      
+        width:280px;
+        height:280px;
+       
+    
+    }
+    .about-countries .about-countries-owl .owl-stage-outer {
+
+        height:250px !important;
+    }
+    .about-countries .about-countries-owl.owl-drag .owl-item {
+    
+        height:250px !important;
+        padding:60px 0;
+    }
+    .about-countries .about-countries-owl .item .content {
+       
+        font-size:15px;
+        padding:40px 0;
+        width:170px;
+        height:170px;
+        
+    }
+    .about-countries .circle img {
+        width:45px;
+        height:45px;
+    }
+
+    /*--//About Page-*/
+     /*--University Admission Page-*/
+
+    
+    .university-admission-sec .nav-tabs{
+
+        display: block;
+        justify-content: unset;
+        text-align: center;
+    }
+    .university-admission-sec .university-content .box h4 {
+        font-size: 15px;
+    }
+    
+    /*--//University Admission Page-*/
+    /*--Courses Page-*/
+    .course-pg-sec .nav-tabs .nav-link {
+        padding: 14px 10px;
+    }
+    .course-pg-sec .button .btn {
+        width: 100%;
+    }
+    /*--//Courses Page-*/
+    /*--Visa Page-*/
+    .visa-sec .image{
+
+        height: unset !important
+    }
+     /*--//Visa Page-*/
+     /*--Apply Visa Page-*/
+     .university-admission-sec .image,
+     .apply-visa-sec .image{
+
+        height:200px !important
+     }
+    /*--//Apply Visa Page-*/
+    /*--University Application Page-*/
+    .application-form .form-group .col-md-6:first-child{
+
+        margin-bottom: 2rem;
+     
+     }
+      /*--//University Application Visa Page-*/
+     /*--Contact Page-*/
+    .contact-sec .col-lg-6{
+
+        margin-bottom: 30px;
+
+    }
+    .contact-sec .info-form .form-control{
+
+        width:100%;
+    }
+    /*--//Contact Page-*/
+}
+@media screen and (max-width:375px) and (min-width:321px){
+
+      /*--Home Page-*/
+      .top-header .top-nav-right {
+        float: unset;
+      }
+      .top-header ul{
+
+        justify-content: center;
+        margin-bottom:8px;
+    }
+    .top-header .top-nav-left ul{
+
+        display: block !important;
+        margin: 0 auto ;
+        text-align: center;
+      }
+      .top-header .top-nav-left ul li{
+          margin-bottom:8px
+      }
+   
+    .top-header .top-nav ul li {
+        margin-left: 5px;
+    }
+   
+   
+   .nav-toggle{
+
+        display: block;
+
+     
+     }
+     .navbar-light .navbar-left {
+       display: none;
+    }
+    .naba-numbers .row {
+        padding: 0;
+    }
+    .main-slider,
+    .owl .carousel-item .image{
+        height:330px  !important;    
+    }
+    
+    .owl .carousel-item .image .overlay .caption,
+    .owl .ite-2 .image .overlay .caption,
+     .owl .ite-3 .image .overlay .caption{
+
+    
+        transform: translateY(130px);
+        
+    }
+   
+   
+    .owl .carousel-item .image .overlay .caption h2 {
+
+        font-size:35px;
+    }
+    .owl .carousel-item .image .overlay .caption .btn {
+
+        width:55%;
+        font-size: 15px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 7% !important;
+    }
+    .services-sec .col-lg-6 {
+        padding: 2px 4px;
+    }
+    .services-sec .image {
+        height: 100% !important; 
+    }
+    .services-sec .image .overlay .box {
+     
+        padding: 12px;
+    }
+    .services-sec .image .overlay .box .text h3 {
+        font-size:30px;
+    }
+    .head img {
+        width: 100% !important; 
+        height: 100% !important;
+    }
+    .trainers-sec .col-lg-3{
+
+        margin-bottom: 30px;
+    }
+    
+    .trainers-sec .image {
+        
+        height:100% !important;
+    }
+    .courses-sec .content .image-center img{
+
+        width:initial !important;
+        height:initial !important;
+    }
+    footer .col-lg-4{
+
+        margin-bottom: 30px;
+    }
+    /*--//Home Page-*/
+
+    /*--About Page-*/
+    .about-countries .circle{
+
+      
+        width:300px;
+        height:300px;
+       
+    
+    }
+    .about-countries .about-countries-owl .owl-stage-outer {
+
+        height:300px !important;
+    }
+    .about-countries .about-countries-owl.owl-drag .owl-item {
+    
+        height:300px !important;
+        padding:60px 0;
+    }
+    .about-countries .about-countries-owl .item .content {
+       
+        font-size:15px;
+        padding: 50px 0;
+        width: 190px;
+        height: 190px;
+        
+    }
+    .about-countries .circle img {
+        width:55px;
+        height:55px;
+    }
+
+    /*--//About Page-*/
+    /*--University Admission Page-*/
+   
+    .university-admission-sec .nav-tabs{
+
+        display: block;
+        justify-content: unset;
+        text-align: center;
+    }
+    
+    /*--//University Admission Page-*/
+    /*--Courses Page-*/
+    .course-pg-sec .button .btn {
+        width: 100%;
+    }
+    /*--//Courses Page-*/
+    /*--Visa Page-*/
+    .visa-sec .image{
+
+        height: unset !important
+    }
+     /*--//Visa Page-*/
+     /*--Apply Visa Page-*/
+     .university-admission-sec .image,
+     .apply-visa-sec .image{
+
+        height:220px !important
+     }
+    /*--//Apply Visa Page-*/
+    /*--University Application Page-*/
+    .application-form .form-group .col-md-6:first-child{
+
+        margin-bottom: 2rem;
+     
+     }
+      /*--//University Application Visa Page-*/
+     /*--Contact Page-*/
+    .contact-sec .col-lg-6{
+
+        margin-bottom: 30px;
+
+    }
+    .contact-sec .info-form .form-control{
+
+        width:100%;
+    }
+    /*--//Contact Page-*/
+}
+@media screen and (max-width:425px) and (min-width:376px){
+
+    
+     /*--Home Page-*/
+     .top-header .top-nav-right {
+        float: unset;
+      }
+      .top-header ul{
+
+        justify-content: center;
+        margin-bottom:8px;
+    }
+    .top-header .top-nav-left ul{
+
+      display: block !important;
+      margin: 0 auto ;
+      text-align: center;
+    }
+    .top-header .top-nav-left ul li{
+        margin-bottom:8px
+    }
+    
+     .nav-toggle{
+
+        display: block;
+
+     
+     }
+     .navbar-light .navbar-left {
+       display: none;
+    }
+    .naba-numbers .row {
+        padding: 0;
+    }
+    .main-slider,
+    .owl .carousel-item .image{
+        height:500px  !important;    
+    }
+    
+    .owl .carousel-item .image .overlay .caption,
+    .owl .ite-2 .image .overlay .caption,
+     .owl .ite-3 .image .overlay .caption{
+
+    
+        transform: translateY(200px);
+        
+    }
+   
+   
+    .owl .carousel-item .image .overlay .caption h2 {
+
+        font-size:40px;
+    }
+    .owl .carousel-item .image .overlay .caption .btn {
+
+        width:40%;
+        font-size: 15px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 8% !important;
+    }
+    .services-sec .col-lg-6 {
+        padding: 2px 4px;
+    }
+    .services-sec .image {
+        height: 100% !important; 
+    }
+    .services-sec .image .overlay .box .text h3 {
+        font-size:35px;
+    }
+    .head img {
+        width: 100% !important; 
+        height: 100% !important;
+    }
+    
+    .trainers-sec .col-lg-3{
+
+        margin-bottom: 30px;
+    }
+    
+    .trainers-sec .image {
+        
+        height:100% !important;
+    }
+    .trainers-sec .image .overlay {
+        top: 87% !important;
+    }
+    .courses-sec .content .image-center img{
+
+        width:initial !important;
+        height:initial !important;
+    }
+    footer .col-lg-4{
+
+        margin-bottom: 30px;
+    }
+    /*--//Home Page-*/
+    /*--About Page-*/
+    .about-countries .circle{
+
+      
+        width: 350px;
+        height:350px;
+       
+    
+    }
+    .about-countries .about-countries-owl .owl-stage-outer {
+
+        height:300px !important;
+    }
+    .about-countries .about-countries-owl.owl-drag .owl-item {
+    
+        height:300px !important;
+        padding:60px 0;
+    }
+    .about-countries .about-countries-owl .item .content {
+       
+        font-size: 17px;
+        padding: 70px 0;
+        width: 230px;
+        height: 230px;
+        
+    }
+    .about-countries .circle img {
+        width: 65px;
+        height: 65px;
+    }
+
+    /*--//About Page-*/
+    /*--University Admission Page-*/
+    .university-admission-sec .nav-tabs{
+
+        display: block;
+        justify-content: unset;
+        text-align: center;
+    }
+    
+    /*--//University Admission Page-*/
+    /*--Courses Page-*/
+    .course-pg-sec .button .btn {
+        width: 100%;
+    }
+
+    /*--//Courses Page-*/
+    /*--Visa Page-*/
+    .visa-sec .image{
+
+        height: unset !important
+    }
+     /*--//Visa Page-*/
+     /*--Apply Visa Page-*/
+     .university-admission-sec .image,
+     .apply-visa-sec .image{
+
+        height:300px !important
+     }
+    /*--//Apply Visa Page-*/
+    /*--University Application Page-*/
+    .application-form .form-group .col-md-6:first-child{
+
+        margin-bottom: 2rem;
+     
+     }
+      /*--//University Application Visa Page-*/
+        /*--Contact Page-*/
+    .contact-sec .col-lg-6{
+
+        margin-bottom: 30px;
+
+    }
+    .contact-sec .info-form .form-control{
+
+        width:100%;
+    }
+    /*--//Contact Page-*/
+}
+
+@media screen and (max-width:575px) and (min-width:426px){
+
+      /*--Home Page-*/
+      .top-header ul{
+
+        justify-content: center;
+        margin-bottom:8px;
+    }
+    .top-header .top-nav ul li a {
+        font-size: 12px;
+    }
+
+    .top-header .top-nav-right {
+         float: unset;
+    }
+     .nav-toggle{
+
+        display: block; 
+     }
+     .navbar-light .navbar-left {
+       display: none;
+    }
+    .naba-numbers .row {
+        padding: 0;
+    }
+    .main-slider {
+        height: 600px !important;
+    }
+    .owl .carousel-item .image {
+        height: 600px !important;
+    }
+    .owl .ite-2 .image .overlay .caption,
+    .owl .ite-3 .image .overlay .caption{
+        transform: translateY(250px) !important; 
+    }
+    .owl .carousel-item .image .overlay .caption h2 {
+
+        font-size: 55px;
+    }
+    .owl .carousel-item .image .overlay .caption .btn {
+        width:30%;
+    }
+    .services-sec .col-lg-6 {
+        padding: 2px 4px;
+    }
+    .services-sec .image {
+        height: 100% !important;
+    }
+    .services-sec .image .overlay .box .text h3 {
+        font-size:35px;
+    }
+    
+    .head img {
+        width:100% !important;
+        height:100% !important;
+    }
+    .trainers-sec .col-lg-3{
+
+        margin-bottom: 30px;
+    }
+    .trainers-sec .image {
+        
+        height:100% !important;
+    }
+    .trainers-sec .image .overlay {
+        top:88% !important;
+    }
+    .courses-sec .content .image-center img{
+
+        width: initial !important;
+        height: initial !important
+    }
+    footer .col-lg-4{
+
+        margin-bottom: 30px;
+    }
+    /*--//Home Page-*/
+     /*--About Page-*/
+     .about-countries .circle{
+
+      
+        width: 350px;
+        height:350px;
+       
+    
+    }
+    .about-countries .about-countries-owl .owl-stage-outer {
+
+        height:300px !important;
+    }
+    .about-countries .about-countries-owl.owl-drag .owl-item {
+    
+        height:300px !important;
+        padding:60px 0;
+    }
+    .about-countries .about-countries-owl .item .content {
+       
+        font-size: 17px;
+        padding: 70px 0;
+        width: 230px;
+        height: 230px;
+        
+    }
+    .about-countries .circle img {
+        width: 65px;
+        height: 65px;
+    }
+
+    /*--//About Page-*/
+    /*--University Admission Page-*/
+     
+   
+     .university-admission-sec .nav-tabs{
+
+        display: block;
+        justify-content: unset;
+        text-align: center;
+    }
+    /*--//University Admission Page-*/
+     /*--Courses Page-*/
+     .course-pg-sec .button .btn {
+        width: 100%;
+    }
+    /*--//Courses Page-*/
+     /*--Visa Page-*/
+    .visa-sec .image{
+
+        height:100% !important
+    }
+     /*--//Visa Page-*/
+     /*--Apply Visa Page--*/
+
+    .university-admission-sec .image,
+    .apply-visa-sec .image{
+
+        height: 300px !important;
+    }
+    /*--//Apply Visa Page--*/
+    /*--Apply Visa Page-*/
+     .apply-visa-sec .image{
+
+        height:300px !important
+     }
+    /*--//Apply Visa Page-*/
+     /*--University Application Page-*/
+    .application-form .form-group .col-md-6:first-child{
+
+       margin-bottom: 2rem;
+    
+    }
+     /*--//University Application Visa Page-*/
+      /*--Contact Page-*/
+    .contact-sec .col-lg-6{
+
+        margin-bottom: 30px;
+
+    }
+    .contact-sec .info-form .form-control{
+
+        width:100%;
+    }
+    /*--//Contact Page-*/
+     
+}
+@media screen and (max-width:768px) and (min-width:576px){
+   
+
+      /*--Home Page-*/
+      .top-header ul{
+
+        justify-content: center;
+        margin-bottom:8px;
+    }
+    .top-header .top-nav-right {
+         float: unset;
+    }
+     .nav-toggle{
+
+        display: block;
+     }
+     .navbar-light .navbar-left {
+       display: none;
+    }
+  
+    .naba-numbers .row {
+        padding: 0;
+    }
+    .owl .carousel-item .image .overlay .caption .btn {
+        width: 25%;
+    }
+    .services-sec .col-lg-6 {
+        padding: 2px 4px;
+    }
+    .services-sec .image {
+        height: 100% !important;
+    }
+    .trainers-sec .col-lg-3{
+
+        margin-bottom: 30px;
+    }
+    footer .col-lg-4{
+
+        margin-bottom: 30px;
+    }
+    /*--//Home Page-*/
+      /*--University Admission Page-*/
+      .university-admission-sec .nav-tabs .nav-item .nav-link {
+       
+        padding: 14px 50px;
+    }
+    .university-admission-sec .nav-tabs{
+
+        display: block;
+        justify-content: unset;
+        text-align: center;
+    }
+    /*--//University Admission Page-*/
+     /*--Courses Page-*/
+     .course-pg-sec .button .btn {
+        width: 30%;
+    }
+    /*--//Courses Page-*/
+    /*--Visa Page-*/
+    .visa-sec .image{
+
+        height:100% !important
+    }
+    /*--//Visa Page-*/
+    /*--Apply Visa Page--*/
+
+    .university-admission-sec .image,
+    .apply-visa-sec .image{
+
+        height: 400px !important;
+    }
+    /*--//Apply Visa Page--*/
+    /*--Contact Page-*/
+      .contact-sec .col-lg-6{
+
+        margin-bottom: 30px;
+
+    }
+    .contact-sec .info-form .form-control{
+
+        width:100%;
+    }
+    /*--//Contact Page-*/
+
+
+}
+@media screen and (max-width:991px) and (min-width:769px){
+     
+     /*--Home Page-*/
+    .top-header ul{
+
+        justify-content: center;
+        margin-bottom:8px;
+    }
+    .top-header .top-nav-right {
+         float: unset;
+    }
+     .nav-toggle{
+
+        display: block; 
+     }
+
+     .navbar-light .navbar-left {
+       display: none;
+    }
+    .naba-numbers .row {
+        padding: 0;
+    }
+    .owl .carousel-item .image .overlay .caption .btn {
+        width: 25%;
+    }
+    .services-sec .col-lg-6 {
+        padding: 2px 4px;
+    }
+    .services-sec .image {
+        height: 100% !important;
+    }
+    .trainers-sec .col-lg-3{
+
+        margin-bottom: 30px;
+    }
+    footer .col-lg-4{
+
+        margin-bottom: 30px;
+    }
+    /*--//Home Page-*/
+     /*--University Admission Page-*/
+     .university-admission-sec .nav-tabs .nav-item .nav-link {
+       
+        padding: 14px 50px;
+    }
+    .university-admission-sec .nav-tabs{
+
+        display: block;
+        justify-content: unset;
+        text-align: center;
+    }
+    
+    /*--//University Admission Page-*/
+    /*--Courses Page-*/
+    .course-pg-sec .button .btn {
+        width: 30%;
+    }
+    /*--//Courses Page-*/
+    /*--Visa Page-*/
+     .visa-sec .image{
+
+        height:100% !important
+    }
+    /*--Apply Visa Page--*/
+
+    .university-admission-sec .image,
+    .apply-visa-sec .image{
+
+        height: 400px !important;
+    }
+    /*--//Apply Visa Page--*/
+
+    /*--//Visa Page-*/
+    /*--Contact Page-*/
+      
+      .contact-sec .col-lg-6{
+
+        margin-bottom: 30px;
+
+    }
+    .contact-sec .info-form .form-control{
+
+        width:100%;
+    }
+    /*--//Contact Page-*/
+  
+
+}
+@media screen and (max-width:1024px) and (min-width:992px){
+  
+    /*--Home Page-*/
+    .top-header .top-nav ul li {
+        margin-left:13px;
+    }
+
+    .top-header .top-nav i {
+        margin-right: 3px;
+    }
+
+    .naba-numbers .row {
+        padding: 0;
+    }
+
+    /*--//Home Page-*/
+
+    /*--University Admission Page-*/
+    .university-admission-sec .nav-tabs .nav-item .nav-link {
+       
+        padding: 14px 70px;
+    }
+    .university-admission-sec .university-content .box h4 {
+        font-size: 17px;
+    }
+    /*--//University Admission Page-*/
+
+}
+/*--//media query--*/
